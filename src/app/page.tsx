@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -9,9 +9,9 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Coffee, Leaf, Flame, Heart, Home, Star, MessageSquare, Mail } from 'lucide-react';
+import { Coffee, Leaf, Flame, Heart, MessageSquare, Mail, Star } from 'lucide-react';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <ThemeProvider
       defaultButtonVariant="shift-hover"
@@ -92,7 +92,7 @@ export default function Home() {
               description: "Every cup is prepared with passion and expertise by our skilled baristas who take pride in creating the perfect coffee experience for you."
             },
             {
-              icon: Home,
+              icon: Star,
               title: "Community Focused",
               description: "More than just a coffee shop, we're a gathering place where neighbors become friends and every visit feels like coming home."
             }
@@ -109,28 +109,28 @@ export default function Home() {
           textboxLayout="default"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Bean Selection",
               description: "We carefully select the finest coffee beans from premium growing regions around the world, focusing on quality, flavor profile, and ethical sourcing practices.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763483591598-o84gvkp1.jpg",
               imageAlt: "Premium coffee bean selection"
             },
             {
-              id: "2",
+              id: 2,
               title: "Expert Roasting",
               description: "Our master roasters use traditional techniques combined with modern precision to bring out the unique characteristics of each bean variety.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763483594397-xehjtzbr.jpg",
               imageAlt: "Coffee roasting process"
             },
             {
-              id: "3",
+              id: 3,
               title: "Perfect Brewing",
               description: "Our skilled baristas employ various brewing methods to extract the optimal flavor from each roast, ensuring consistency and excellence in every cup.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763483596516-x9wky3nv.jpg",
               imageAlt: "Professional coffee brewing"
             },
             {
-              id: "4",
+              id: 4,
               title: "Served Fresh",
               description: "Each cup is served at the perfect temperature with attention to presentation, creating a memorable experience that engages all your senses.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763483598228-e5vpdwyb.jpg",
